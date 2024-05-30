@@ -1,0 +1,49 @@
+body {
+    background-color: #f5f9fa;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+}
+
+.card {
+    border-radius: 15px;
+}
+.card-body{
+    background-color: #f0e7c0;
+}
+
+#conversacion {
+    background-color: #afc9e4;
+    border-radius: 5px;
+    padding: 10px;
+}
+#videoContainer {
+    height: 400px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0e7c0; /* Color de fondo deseado */
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('/static/Imagenes/hospital.jpg');
+    background-size: cover; /* La imagen cubrirá todo el cuerpo */
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+.card-title {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center; /* Cambiar el color del texto a rojo */
+}
+
+
+/* Otras reglas de estilo para otros elementos de la página */
